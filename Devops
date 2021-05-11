@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-11T07:16:46.580Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="xwym5DitHPrMK1KVdUHJ" version="14.6.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-11T07:17:11.676Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="1anZIb554OeEnLPnhCHd" version="14.6.11" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Day-1">
     <mxGraphModel dx="868" dy="393" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -583,8 +583,10 @@
         <mxCell id="r0o-_9tGp2J_2BZAqQzh-48" value="Ansible is the tool mostly used for continues deployment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="jW-1V-oIwe_JtAykZitb-1">
           <mxGeometry x="375" y="1780" width="415" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="r0o-_9tGp2J_2BZAqQzh-49" value="Dev Team" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontSize=21;fillColor=#FF3399;align=left;" vertex="1" parent="jW-1V-oIwe_JtAykZitb-1">
-          <mxGeometry x="40" y="1920" width="380" height="220" as="geometry" />
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-49" value="Dev Team" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontSize=21;fillColor=#FF3399;align=left;" vertex="1" collapsed="1" parent="jW-1V-oIwe_JtAykZitb-1">
+          <mxGeometry x="40" y="1920" width="130" height="30" as="geometry">
+            <mxRectangle x="40" y="1920" width="380" height="220" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="r0o-_9tGp2J_2BZAqQzh-50" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;" edge="1" parent="r0o-_9tGp2J_2BZAqQzh-49" source="r0o-_9tGp2J_2BZAqQzh-52" target="r0o-_9tGp2J_2BZAqQzh-53">
           <mxGeometry relative="1" as="geometry" />
