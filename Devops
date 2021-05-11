@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-11T06:39:19.322Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="GAmaw0qul71Ks8FhJuUj" version="14.6.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-05-11T07:16:46.580Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="xwym5DitHPrMK1KVdUHJ" version="14.6.11" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Day-1">
     <mxGraphModel dx="868" dy="393" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -440,7 +440,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="YHAQgooiwxi-a8yEgif8" name="Day-2.1">
-    <mxGraphModel dx="989" dy="393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="none" math="0" shadow="0">
+    <mxGraphModel dx="796" dy="393" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="none" math="0" shadow="0">
       <root>
         <mxCell id="jW-1V-oIwe_JtAykZitb-0" />
         <mxCell id="jW-1V-oIwe_JtAykZitb-1" parent="jW-1V-oIwe_JtAykZitb-0" />
@@ -502,11 +502,118 @@
         <mxCell id="r0o-_9tGp2J_2BZAqQzh-19" value="WAR" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="jW-1V-oIwe_JtAykZitb-1">
           <mxGeometry x="232.5" y="35" width="25" height="10" as="geometry" />
         </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=21;" edge="1" parent="jW-1V-oIwe_JtAykZitb-1" source="r0o-_9tGp2J_2BZAqQzh-20" target="r0o-_9tGp2J_2BZAqQzh-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="r0o-_9tGp2J_2BZAqQzh-20" value="Deployment" style="label;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;spacingLeft=0;spacingBottom=4;imageAlign=center;imageVerticalAlign=top;image=img/clipart/Gear_128x128.png;fontSize=21;fillColor=#FF3399;" vertex="1" parent="jW-1V-oIwe_JtAykZitb-1">
           <mxGeometry x="110" y="440" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="r0o-_9tGp2J_2BZAqQzh-21" value="is nothing but installing /deploying the packages on the remote servers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="jW-1V-oIwe_JtAykZitb-1">
-          <mxGeometry x="310" y="470" width="460" height="20" as="geometry" />
+          <mxGeometry x="320" y="470" width="460" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-24" value="Continuously deploy the packages automatically on each and every remote servers&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="jW-1V-oIwe_JtAykZitb-1">
+          <mxGeometry x="260" y="830" width="580" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-25" value="CI / CD" style="label;whiteSpace=wrap;html=1;align=center;verticalAlign=bottom;spacingLeft=0;spacingBottom=4;imageAlign=center;imageVerticalAlign=top;image=img/clipart/Gear_128x128.png;fontSize=21;fillColor=#FF3399;" vertex="1" parent="jW-1V-oIwe_JtAykZitb-1">
+          <mxGeometry x="110" y="760" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-26" value="Continues Integration is nothing combing the code with existing code" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="jW-1V-oIwe_JtAykZitb-1">
+          <mxGeometry x="257.5" y="780" width="580" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-27" value="Maven is the tool to deploy the packages automatically on each and every remote servers&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="jW-1V-oIwe_JtAykZitb-1">
+          <mxGeometry x="240" y="630" width="580" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-28" value="How do you identify the build failures (Jenkins)&lt;br&gt;and how do you understand if the failure from code / devops team" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="jW-1V-oIwe_JtAykZitb-1">
+          <mxGeometry x="280" y="970" width="580" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-29" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/42-quora_question-128.png;fontSize=21;fillColor=#FF3399;align=left;" vertex="1" parent="jW-1V-oIwe_JtAykZitb-1">
+          <mxGeometry x="104.5" y="910" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-30" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.communications.lync_server_management_tool;fontSize=21;" vertex="1" parent="jW-1V-oIwe_JtAykZitb-1">
+          <mxGeometry x="170" y="1260" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-31" value="Sonarqube" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="jW-1V-oIwe_JtAykZitb-1">
+          <mxGeometry x="192.5" y="1370" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-32" value="Sonarqube is the tool to identify the build failure from the Jenkins output and it will also show where it went wrong on the code exactly line along with the troubleshoot options" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="jW-1V-oIwe_JtAykZitb-1">
+          <mxGeometry x="310" y="1320" width="580" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-33" value="Code manual checking or debugging is very difficult" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="jW-1V-oIwe_JtAykZitb-1">
+          <mxGeometry x="330" y="1180" width="565" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;" edge="1" parent="jW-1V-oIwe_JtAykZitb-1" source="r0o-_9tGp2J_2BZAqQzh-34" target="r0o-_9tGp2J_2BZAqQzh-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-34" value="Devops team" style="rounded=1;whiteSpace=wrap;html=1;fontSize=21;fillColor=#dae8fc;align=left;strokeColor=#6c8ebf;" vertex="1" parent="jW-1V-oIwe_JtAykZitb-1">
+          <mxGeometry x="300" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-35" value="email to Development team to check the error" style="rounded=1;whiteSpace=wrap;html=1;fontSize=21;fillColor=#fff2cc;align=left;strokeColor=#d6b656;" vertex="1" parent="jW-1V-oIwe_JtAykZitb-1">
+          <mxGeometry x="640" y="1090" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-37" value="build failure&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="jW-1V-oIwe_JtAykZitb-1">
+          <mxGeometry x="460" y="1100" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-39" value="Successful build should be deploy&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="jW-1V-oIwe_JtAykZitb-1">
+          <mxGeometry x="377.5" y="1500" width="340" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-40" value="Ansible" style="swimlane;html=1;startSize=20;horizontal=0;childLayout=treeLayout;horizontalTree=1;resizable=0;containerType=tree;fontSize=21;fillColor=#FF3399;align=left;" vertex="1" parent="jW-1V-oIwe_JtAykZitb-1">
+          <mxGeometry x="390" y="1520" width="310" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=21;" edge="1" parent="r0o-_9tGp2J_2BZAqQzh-40" source="r0o-_9tGp2J_2BZAqQzh-41" target="r0o-_9tGp2J_2BZAqQzh-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-41" value="Package" style="whiteSpace=wrap;html=1;" vertex="1" parent="r0o-_9tGp2J_2BZAqQzh-40">
+          <mxGeometry x="40" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-42" value="Remote Server 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="r0o-_9tGp2J_2BZAqQzh-40">
+          <mxGeometry x="190" y="20" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-43" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=0;" edge="1" parent="r0o-_9tGp2J_2BZAqQzh-40" source="r0o-_9tGp2J_2BZAqQzh-41" target="r0o-_9tGp2J_2BZAqQzh-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-44" value="Remote Server 2" style="whiteSpace=wrap;html=1;" vertex="1" parent="r0o-_9tGp2J_2BZAqQzh-40">
+          <mxGeometry x="190" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-45" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=0;" edge="1" parent="r0o-_9tGp2J_2BZAqQzh-40" source="r0o-_9tGp2J_2BZAqQzh-41" target="r0o-_9tGp2J_2BZAqQzh-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-46" value="Remote Server 3" style="whiteSpace=wrap;html=1;" vertex="1" parent="r0o-_9tGp2J_2BZAqQzh-40">
+          <mxGeometry x="190" y="180" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-48" value="Ansible is the tool mostly used for continues deployment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=21;" vertex="1" parent="jW-1V-oIwe_JtAykZitb-1">
+          <mxGeometry x="375" y="1780" width="415" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-49" value="Dev Team" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontSize=21;fillColor=#FF3399;align=left;" vertex="1" parent="jW-1V-oIwe_JtAykZitb-1">
+          <mxGeometry x="40" y="1920" width="380" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-50" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;" edge="1" parent="r0o-_9tGp2J_2BZAqQzh-49" source="r0o-_9tGp2J_2BZAqQzh-52" target="r0o-_9tGp2J_2BZAqQzh-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-51" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;" edge="1" parent="r0o-_9tGp2J_2BZAqQzh-49" source="r0o-_9tGp2J_2BZAqQzh-52" target="r0o-_9tGp2J_2BZAqQzh-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="120" />
+              <mxPoint x="190" y="140" />
+              <mxPoint x="240" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.6;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=21;" edge="1" parent="r0o-_9tGp2J_2BZAqQzh-49" source="r0o-_9tGp2J_2BZAqQzh-52" target="r0o-_9tGp2J_2BZAqQzh-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="JAVA CODE" treeRoot="1" id="r0o-_9tGp2J_2BZAqQzh-52">
+          <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="r0o-_9tGp2J_2BZAqQzh-49">
+            <mxGeometry x="80" y="40" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-53" value="Developer 1" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="r0o-_9tGp2J_2BZAqQzh-49">
+          <mxGeometry x="20" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-54" value="Developer 2" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="r0o-_9tGp2J_2BZAqQzh-49">
+          <mxGeometry x="160" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r0o-_9tGp2J_2BZAqQzh-58" value="Developer 3" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="r0o-_9tGp2J_2BZAqQzh-49">
+          <mxGeometry x="280" y="140" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
